@@ -1,7 +1,7 @@
 function twoSum(nums: number[], target: number): number[] {
   const result: [number, number] = [-1, -1];
 
-  // Map<compliment, index>
+  // Map<value, index>
   const compliments = new Map<number, number>();
 
   for (let i = 0; i < nums.length; i++) {
